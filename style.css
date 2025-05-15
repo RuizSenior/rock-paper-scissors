@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.game_buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  font-size: 3rem;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  scale: 1.2;
+}
+
+#rock {
+  border: 10px solid red;
+}
+
+#paper {
+  border: 10px solid blue;
+}
+
+#scissors {
+  border: 10px solid chartreuse;
+}
