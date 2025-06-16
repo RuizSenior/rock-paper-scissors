@@ -22,7 +22,6 @@ function computerPlay() {
 }
 
 function playRound(player, computer) {
-  console.log(player, computer);
   
   if ( player === computer) {
     return 'Draw'

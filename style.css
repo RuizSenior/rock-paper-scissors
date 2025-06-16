@@ -130,6 +130,5 @@ h2 {
   }
 
   .title {
-    margin-top: 0; /* Restablece el margen en pantallas pequeñas */
-  }
+    margin-top: 0; 
 }
